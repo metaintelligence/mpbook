@@ -80,7 +80,7 @@ def run_generator(
 def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
-            "Generate HWP in compatibility-first safe mode (text-only body; no equation/image controls)."
+            "Generate HWP in compatibility-first mode (equation controls and visual image controls enabled)."
         )
     )
     parser.add_argument("--input", default="output/structured_questions.json", help="Input JSON path.")
@@ -88,7 +88,7 @@ def main() -> None:
     parser.add_argument(
         "--visual-dir",
         default="output/derived_visuals",
-        help="Visual directory (used only to add text hints in safe mode).",
+        help="Directory containing cropped visual images to place in HWP.",
     )
     parser.add_argument(
         "--skip-compile",
@@ -122,7 +122,7 @@ def main() -> None:
         visual_dir=visual_dir,
     )
 
-    print(f"Generated HWP (safe mode): {output_hwp.resolve()}")
+    print(f"Generated HWP (safe+equation mode): {output_hwp.resolve()}")
 
 
 if __name__ == "__main__":
