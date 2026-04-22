@@ -1,0 +1,248 @@
+{
+  "project": "mpbook",
+  "created_at": "2026-04-22",
+  "source_folder": "sample_input",
+  "formula_notation": "latex-inline",
+  "questions": [
+    {
+      "id": "Q01",
+      "source_image": "sample_input/sample_1.png",
+      "type": "multiple_choice",
+      "title": "지수/로그와 원",
+      "body": [
+        "자연수 \\(n\\)에 대하여 곡선 \\(y=2^x\\) 위의 두 점 \\(A_n, B_n\\)이 다음 조건을 만족시킨다.",
+        "(가) 직선 \\(A_nB_n\\)의 기울기는 \\(3\\)이다.",
+        "(나) \\(\\overline{A_nB_n}=n\\sqrt{10}\\) 이다.",
+        "중심이 직선 \\(y=x\\) 위에 있고 두 점 \\(A_n, B_n\\)을 지나는 원이 곡선 \\(y=\\log_2 x\\)와 만나는 두 점의 \\(x\\)좌표 중 큰 값을 \\(x_n\\)이라 하자.",
+        "\\(x_1+x_2+x_3\\)의 값을 구하시오."
+      ],
+      "choices": [
+        "\\(\\frac{150}{7}\\)",
+        "\\(\\frac{155}{7}\\)",
+        "\\(\\frac{160}{7}\\)",
+        "\\(\\frac{165}{7}\\)",
+        "\\(\\frac{170}{7}\\)"
+      ]
+    },
+    {
+      "id": "Q02",
+      "source_image": "sample_input/sample_2.png",
+      "type": "multiple_choice",
+      "title": "복소근과 매개변수",
+      "body": [
+        "\\(x\\)에 관한 이차방정식 \\(x^2-2(p+2)x+4=0\\)의 한 허근을 \\(\\alpha\\)라 하자.",
+        "\\(\\alpha^3\\)이 실수일 때, 실수 \\(p\\)의 값들의 합을 구하시오."
+      ],
+      "choices": [
+        "\\(-2\\)",
+        "\\(-3\\)",
+        "\\(-4\\)",
+        "\\(-5\\)",
+        "\\(-6\\)"
+      ]
+    },
+    {
+      "id": "Q03",
+      "source_image": "sample_input/sample_3.png",
+      "type": "multiple_choice",
+      "title": "복소수의 실수부",
+      "body": [
+        "실수가 아닌 복소수 \\(z\\)에 대하여 \\(\\frac{z^3}{z+1}\\)와 \\(\\frac{1}{z+1}\\)의 허수 부분이 같다고 한다.",
+        "\\(z\\)의 실수 부분을 \\(p\\)라 할 때, \\(10p\\)의 값을 구하시오."
+      ],
+      "choices": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "id": "Q04",
+      "source_image": "sample_input/sample_4.png",
+      "type": "multiple_choice",
+      "title": "복소수 조건식",
+      "body": [
+        "복소수 \\(z=a^3+(i-6)a^2+(i+11)a-4-2i\\)에 대하여 \\((z-2)^2<0\\)을 만족시키는 모든 실수 \\(a\\)의 값들의 합을 구하시오."
+      ],
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "id": "Q05",
+      "source_image": "sample_input/sample_5.png",
+      "type": "multiple_choice",
+      "title": "절댓값 부등식",
+      "body": [
+        "부등식 \\(|x|+|x+1|<a\\)의 해가 \\(-\\frac{3}{2}\\le x\\le b\\)일 때, 상수 \\(a,b\\)에 대하여 \\(a+8b\\)의 값을 구하시오."
+      ],
+      "choices": [
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "id": "Q06",
+      "source_image": "sample_input/sample_blank_1.png",
+      "type": "fill_in_blank",
+      "title": "삼각비 계산 과정 완성 1",
+      "body": [
+        "직각삼각형 \\(ABC\\)에서 \\(\\angle B=90^\\circ\\), \\(\\sin A=\\frac{\\sqrt{6}}{4}\\)일 때 \\(\\cos A, \\tan A\\)를 구하는 과정이다. 빈칸을 채우시오.",
+        "\\(\\sin A=\\frac{\\sqrt{6}}{4}\\)에서 \\(AC=4, BC=\\sqrt{6}\\)인 직각삼각형을 생각할 수 있다.",
+        "피타고라스 정리에 의하여 \\(AB=\\sqrt{4^2-(\\sqrt{6})^2}=\\square\\).",
+        "따라서 \\(\\cos A=\\frac{\\square}{4},\\ \\tan A=\\frac{\\sqrt{6}}{\\square}=\\square\\)."
+      ],
+      "choices": []
+    },
+    {
+      "id": "Q07",
+      "source_image": "sample_input/sample_blank_2.png",
+      "type": "fill_in_blank",
+      "title": "삼각비 계산 과정 완성 2",
+      "body": [
+        "오른쪽 그림의 직각삼각형 \\(ABC\\)에서 \\(AB=10,\\ \\sin C=\\frac{5}{7}\\)일 때, \\(BC\\)의 길이를 구하는 과정이다. 빈칸을 채우시오.",
+        "\\(\\sin C=\\frac{AB}{\\square}=\\frac{5}{7}\\) 이므로 \\(AC=\\square\\).",
+        "피타고라스 정리에 의하여 \\(BC=\\sqrt{\\square^2-10^2}=\\square\\)."
+      ],
+      "choices": []
+    },
+    {
+      "id": "Q08",
+      "source_image": "sample_input/sample_blank_3.png",
+      "type": "fill_in_blank",
+      "title": "삼각비 직접 계산",
+      "body": [
+        "아래 두 직각삼각형에 대하여 삼각비를 구하시오.",
+        "(1) \\(AC=\\sqrt{11},\\ CB=5,\\ AB=6\\) 일 때: \\(\\sin B,\\ \\cos B,\\ \\tan B\\)",
+        "(2) \\(AC=7,\\ BC=5,\\ AB=2\\sqrt{6}\\) 일 때: \\(\\sin C,\\ \\cos C,\\ \\tan C\\)"
+      ],
+      "choices": []
+    },
+    {
+      "id": "Q09",
+      "source_image": "sample_input/sample_graph_1.png",
+      "type": "multiple_choice",
+      "title": "좌표와 거리 최댓값/최솟값",
+      "body": [
+        "좌표평면 위의 두 점 \\(A(5,12),\\ B(-4,0)\\)이 있다.",
+        "반지름의 길이가 \\(1\\)이고 선분 \\(AB\\)와 만나는 원의 중심을 \\(P\\)라 할 때, 선분 \\(OP\\)의 길이의 최댓값은 \\(a\\), 최솟값은 \\(b\\)이다.",
+        "선분 \\(AB\\)와 \\(y\\)축의 교점을 \\(B'\\)라 하자. 점 \\(B\\)를 \\(B'\\)로 이동하면 선분 \\(OP\\)의 길이의 최솟값은 \\(c\\)이다.",
+        "\\(a+5b-3c\\)의 값을 구하시오."
+      ],
+      "choices": [
+        "0",
+        "12",
+        "16",
+        "\\(\\frac{92}{5}\\)",
+        "38"
+      ]
+    },
+    {
+      "id": "Q10",
+      "source_image": "sample_input/sample_graph_2.png",
+      "type": "multiple_choice",
+      "title": "직각삼각형의 삼각비 판별",
+      "body": [
+        "오른쪽 그림과 같은 직각삼각형 \\(ABC\\)에서 \\(AB=15,\\ AC=12\\)일 때, 다음 중 옳은 것을 고르시오."
+      ],
+      "choices": [
+        "\\(\\sin A=\\frac{4}{5}\\)",
+        "\\(\\cos A=\\frac{4}{5}\\)",
+        "\\(\\sin B=\\frac{3}{5}\\)",
+        "\\(\\cos B=\\frac{4}{5}\\)",
+        "\\(\\tan B=\\frac{3}{4}\\)"
+      ]
+    },
+    {
+      "id": "Q11",
+      "source_image": "sample_input/sample_graph_3.png",
+      "type": "short_answer",
+      "title": "정육면체의 각과 삼각비",
+      "body": [
+        "한 모서리의 길이가 \\(5\\,\\mathrm{cm}\\)인 정육면체에서 \\(\\angle BHF=x\\)라 할 때, \\(\\sin x\\)의 값을 구하시오."
+      ],
+      "choices": []
+    },
+    {
+      "id": "Q12",
+      "source_image": "sample_input/sample_graph_4.png",
+      "type": "multiple_choice",
+      "title": "부채꼴 도형과 삼각비",
+      "body": [
+        "오른쪽 그림과 같이 반지름의 길이가 \\(1\\)인 부채꼴에서 \\(BC\\)의 길이와 그 값이 같은 것을 고르시오."
+      ],
+      "choices": [
+        "\\(\\sin 50^\\circ\\)",
+        "\\(\\cos 50^\\circ\\)",
+        "\\(\\tan 50^\\circ\\)",
+        "\\(1-\\sin 50^\\circ\\)",
+        "\\(1-\\cos 50^\\circ\\)"
+      ]
+    },
+    {
+      "id": "Q13",
+      "source_image": "sample_input/sample_graph_5.png",
+      "type": "multiple_choice",
+      "title": "실생활 삼각비 응용",
+      "body": [
+        "나무가 강한 바람에 흔들리다가 담과 부딪혀 부러져 그림과 같이 나무의 꼭대기 부분이 담 밖의 바닥에 닿았다.",
+        "나무의 원래 높이를 구하시오. (단, \\(\\cos 55^\\circ=0.6\\), \\(\\cos 65^\\circ=0.4\\)로 계산한다.)"
+      ],
+      "choices": [
+        "\\(26\\,\\mathrm{m}\\)",
+        "\\(29\\,\\mathrm{m}\\)",
+        "\\(32\\,\\mathrm{m}\\)",
+        "\\(35\\,\\mathrm{m}\\)",
+        "\\(38\\,\\mathrm{m}\\)"
+      ]
+    },
+    {
+      "id": "Q14",
+      "source_image": "sample_input/sample_table_1.png",
+      "type": "multiple_choice",
+      "title": "삼각비 표 활용",
+      "body": [
+        "다음 삼각비의 표를 이용하여 \\(\\tan 88^\\circ-(\\sin 89^\\circ+\\cos 87^\\circ)\\)의 값을 구하시오.",
+        "표 값: 87도 \\(\\sin=0.9986,\\ \\cos=0.0523,\\ \\tan=19.0811\\)",
+        "표 값: 88도 \\(\\sin=0.9994,\\ \\cos=0.0349,\\ \\tan=28.6363\\)",
+        "표 값: 89도 \\(\\sin=0.9998,\\ \\cos=0.0175,\\ \\tan=57.2900\\)"
+      ],
+      "choices": [
+        "18.029",
+        "27.5842",
+        "27.6016",
+        "55.2044",
+        "56.2379"
+      ]
+    },
+    {
+      "id": "Q15",
+      "source_image": "sample_input/sample_table_2.png",
+      "type": "multiple_choice",
+      "title": "옳은 식 모두 고르기",
+      "body": [
+        "다음 보기 중 옳은 것을 모두 고르시오.",
+        "\\(\\text{ㄱ. }\\sin 30^\\circ=\\frac{1}{2}\\)",
+        "\\(\\text{ㄴ. }\\cos 45^\\circ=1\\)",
+        "\\(\\text{ㄷ. }\\frac{1}{\\tan 60^\\circ}=\\frac{\\sqrt{3}}{3}\\)",
+        "\\(\\text{ㄹ. }\\frac{\\cos 30^\\circ}{\\sin 60^\\circ}=\\frac{\\sqrt{3}}{2}\\)"
+      ],
+      "choices": [
+        "ㄱ, ㄴ",
+        "ㄱ, ㄷ",
+        "ㄴ, ㄷ",
+        "ㄴ, ㄹ",
+        "ㄷ, ㄹ"
+      ]
+    }
+  ]
+}
